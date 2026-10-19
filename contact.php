@@ -83,10 +83,10 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
                 <div class="office-body-sm">
                     <h3>ERNAKULAM OFFICE</h3>
-                    <p>Opp. Gate No. 2, High Court of Kerala, Ernakulam, Kerala</p>
+                    <p>3rd Floor, Adv. M. M. Mathew Building, Opposite Gate No. 2, High Court of Kerala, Ernakulam, Kerala</p>
                     <div class="office-phone-pill">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        <span>+91 9447292616 / +91 9633552910</span>
+                        <span>+91 9947782842 / +91 9633552910</span>
                     </div>
                 </div>
             </div>
@@ -98,10 +98,10 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
                 <div class="office-body-sm">
                     <h3>NORTH PARAVUR OFFICE</h3>
-                    <p>Municipal Shopping Complex, North Paravur, Ernakulam District, Kerala</p>
+                    <p>1st Floor, Municipal Shopping Complex, Opposite Punjab National Bank, Main Road, North Paravur, Ernakulam &ndash; 683513, Kerala</p>
                     <div class="office-phone-pill">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        <span>+91 9847093010 / +91 9947482842</span>
+                        <span>+91 9447292616 / +91 9633552910 / +91 9947482842</span>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@ require_once __DIR__ . '/includes/header.php';
                     </div>
 
                     <div class="form-cell" style="margin-bottom:12px;">
-                        <label class="form-cell-label" for="practice_area">Practice Area</label>
+                        <label class="form-cell-label" for="practice_area">Practice Area Category</label>
                         <select id="practice_area" name="practice_area" class="form-input" required>
                             <option value="" disabled <?php echo empty($_POST['practice_area']) ? 'selected' : ''; ?>></option>
                             <option value="Motor Accident Claims (MACT)">Motor Accident Claims (MACT)</option>
@@ -183,7 +183,7 @@ require_once __DIR__ . '/includes/header.php';
                             <option value="Criminal Law">Criminal Law</option>
                             <option value="Family & Matrimonial">Family &amp; Matrimonial</option>
                             <option value="High Court & Appellate">High Court &amp; Appellate</option>
-                            <option value="Commercial & Drafting">Commercial &amp; Drafting</option>
+                            <option value="Corporate, Commercial & Advisory">Commercial  &amp;  Drafting </option>
                             <option value="General Enquiry">General Enquiry</option>
                         </select>
                     </div>
@@ -196,8 +196,12 @@ require_once __DIR__ . '/includes/header.php';
                     <div class="checkbox-consent-row">
                         <input type="checkbox" id="bci_consent" name="bci_consent" value="1" required <?php echo isset($_POST['bci_consent']) ? 'checked' : ''; ?>>
                         <label for="bci_consent">
-                            I understand that submitting this enquiry does not create an advocate-client relationship.
+                           I understand that submitting this enquiry does not create an advocate-client relationship and that this form is used solely to schedule an in-person or formal consultation.
                         </label>
+                    </div>
+
+                    <div style="font-size:0.75rem; color:#64748b; line-height:1.5; margin-bottom:14px;">
+                        Information submitted through this form is intended only for preliminary communication and does not constitute acceptance of professional engagement or legal advice. Please refer to our <a href="disclaimer.php" style="color:var(--burgundy); text-decoration:underline;">Privacy Notice &amp; Disclaimer</a>.
                     </div>
 
                     <button type="submit" class="btn-burgundy-block">
@@ -215,11 +219,11 @@ require_once __DIR__ . '/includes/header.php';
     <div class="contact-bottom-offices">
         <div class="contact-bottom-item">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            <div><strong>Ernakulam Office:</strong> Opp. Gate No. 2, High Court of Kerala</div>
+            <div><strong>Ernakulam Office:</strong> 3rd Floor, Adv. M. M. Mathew Building, Opp. Gate No. 2, High Court of Kerala, Ernakulam</div>
         </div>
         <div class="contact-bottom-item">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-            <div><strong>North Paravur Office:</strong> Municipal Shopping Complex, North Paravur</div>
+            <div><strong>North Paravur Office:</strong> 1st Floor, Municipal Shopping Complex, Opp. Punjab National Bank, Main Road, North Paravur</div>
         </div>
     </div>
 

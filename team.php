@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/header.php';
                     <h3 class="partner-name">Adv. K. Shaju Varghese</h3>
                     <div class="partner-role-tag">Founder Partner</div>
                     <p class="partner-bio">
-                        Civil litigation, real estate, Motor Accident Claims, constitutional proceedings and High Court appeals.
+                        Areas of practice include civil litigation, real estate and property disputes, Motor Accident Claims, constitutional proceedings, and High Court appeals.
                     </p>
                 </div>
                 <a href="tel:+919447292616" class="partner-phone">
@@ -50,7 +50,7 @@ require_once __DIR__ . '/includes/header.php';
                     <h3 class="partner-name">Adv. A. V. Vinu</h3>
                     <div class="partner-role-tag">Founder Partner</div>
                     <p class="partner-bio">
-                        MACT, criminal defence, civil suits, Family Court litigation and appellate representation.
+                        Areas of practice include Motor Accident Claims, criminal trial defence, civil suits, Family Court litigation, and appellate representation.
                     </p>
                 </div>
                 <a href="tel:+919847093010" class="partner-phone">
@@ -61,7 +61,7 @@ require_once __DIR__ . '/includes/header.php';
         </div>
     </div>
 
-    <!-- Advocates and Associate Legal Counsel White Box -->
+    <!-- Advocates and Associate Advocates White Box -->
     <div class="team-sub-white-box">
         <div class="team-sub-row">
             <div>
@@ -82,7 +82,7 @@ require_once __DIR__ . '/includes/header.php';
             <div>
                 <div class="sub-box-title" style="display:flex; align-items:center; gap:8px;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-                    <span>Associate Legal Counsel</span>
+                    <span>Associate Advocates</span>
                 </div>
                 <div class="counsel-grid-2col">
                     <div class="counsel-item">Adv. Jyothi K.J.</div>
@@ -96,11 +96,11 @@ require_once __DIR__ . '/includes/header.php';
         </div>
     </div>
 
-    <!-- Bottom Philosophy Quote Strip (Burgundy Gradient with Quote Marks) -->
+    <!-- Bottom Practice Standard Strip (BCI-Compliant Statement) -->
     <div class="quote-maroon-strip">
         <div class="quote-mark">&ldquo;</div>
         <p class="quote-inner-p">
-            We uphold professional integrity, diligence, and personalized attention in every matter. Our team works with dedication to protect your rights and achieve the best possible outcomes.
+            The Firm's practice is supported by legal research, drafting, procedural preparation and representation before courts, tribunals and statutory forums.
         </p>
     </div>
 

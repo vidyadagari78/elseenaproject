@@ -35,9 +35,10 @@ require_once __DIR__ . '/includes/header.php';
             <div class="practice-text-content">
                 <h3>Motor Accident Claims &amp; Compensation (MACT)</h3>
                 <ul>
-                    <li>Representation in injury compensation and fatal accident dependency claims.</li>
-                    <li>Disability assessment, medical expenses, earning capacity loss.</li>
-                    <li>Liability disputes, insurance challenges and pay-and-recovery matters.</li>
+                    <li>Representation in injury compensation and fatal accident dependency claims before Motor Accident Claims Tribunals.</li>
+                    <li>Adjudication of permanent and functional disability assessments, earning capacity loss, and medical expenses.</li>
+                    <li>Legal management of contributory negligence disputes, driving licence validity challenges, insurance policy liability, and pay-and-recovery adjudications.</li>
+                    <li>Execution proceedings for award recovery and regular Motor Accident Claim Appeals (MACA) before the High Court of Kerala.</li>
                 </ul>
             </div>
             <div class="practice-row-thumb">
@@ -57,10 +58,12 @@ require_once __DIR__ . '/includes/header.php';
                 </svg>
             </div>
             <div class="practice-text-content">
-                <h3>Civil Litigation</h3>
+                <h3>Civil Litigation &amp; Property Disputes</h3>
                 <ul>
-                    <li>Title suits, partition, injunctions, rent control.</li>
-                    <li>Contract enforcement, execution petitions, second appeals.</li>
+                    <li>Original suits regarding title, declaration, partition, and permanent/mandatory injunctions.</li>
+                    <li>Boundary rectifications, easementary rights, possession restoration, and specific performance of contracts.</li>
+                    <li>Land acquisition challenges, revenue-record litigations, building permit disputes, and Kerala Conservation of Paddy Land &amp; Wetland Act proceedings.</li>
+                    <li>Tenancy disputes under Rent Control Acts, Execution Petitions (EP), Regular First Appeals (RFA), Regular Second Appeals (RSA), and Civil Revision Petitions (CRP).</li>
                 </ul>
             </div>
             <div class="practice-row-thumb">
@@ -80,11 +83,13 @@ require_once __DIR__ . '/includes/header.php';
                 </svg>
             </div>
             <div class="practice-text-content">
-                <h3>Criminal Defence &amp; Litigation</h3>
+                <h3>Criminal Litigation &amp; Defence Practice</h3>
                 <ul>
-                    <li>Bail petitions, discharge proceedings, Section 138 NI Act matters.</li>
-                    <li>Quashing petitions under Section 482 Cr.P.C.</li>
-                    <li>NDPS, POCSO, and other criminal defence matters.</li>
+                    <li>Criminal trials, warrant and summons cases, summary trials, and private complaint proceedings.</li>
+                    <li>Regular bail petitions before Magistrate and Sessions Courts, and Anticipatory Bail applications before Sessions Courts and the High Court of Kerala.</li>
+                    <li>Cheque dishonour complaints under Section 138 of the Negotiable Instruments Act.</li>
+                    <li>Quashing of FIRs and charge sheets under Section 528 BNSS / Section 482 Cr.P.C., discharge petitions, criminal revisions, sentence suspensions, and appeals.</li>
+                    <li>Representation in matters under special criminal statutes including NDPS, POCSO, and economic offences.</li>
                 </ul>
             </div>
             <div class="practice-row-thumb">
@@ -104,11 +109,12 @@ require_once __DIR__ . '/includes/header.php';
                 </svg>
             </div>
             <div class="practice-text-content">
-                <h3>Family &amp; Matrimonial Matters</h3>
+                <h3>Family &amp; Matrimonial Litigation</h3>
                 <ul>
-                    <li>Divorce, judicial separation, restitution of conjugal rights.</li>
-                    <li>Maintenance and alimony, child custody and guardianship.</li>
-                    <li>Domestic violence cases and mediation proceedings.</li>
+                    <li>Petitions for divorce (mutual and contested), restitution of conjugal rights, and judicial separation.</li>
+                    <li>Maintenance claims, interim maintenance, and permanent alimony proceedings under personal and secular laws.</li>
+                    <li>Child custody disputes, visitorial rights, legal guardianship applications, and matrimonial property division.</li>
+                    <li>Representation in proceedings under the Protection of Women from Domestic Violence Act and Matrimonial Appeals before appellate courts.</li>
                 </ul>
             </div>
             <div class="practice-row-thumb">
@@ -130,11 +136,12 @@ require_once __DIR__ . '/includes/header.php';
                 </svg>
             </div>
             <div class="practice-text-content">
-                <h3>Appellate &amp; Constitutional Practice</h3>
+                <h3>High Court, Appellate, Commercial  &amp; Advisory</h3>
                 <ul>
-                    <li>Writ petitions under Article 226, supervisory petitions under Article 227.</li>
-                    <li>Civil, criminal and MACT appeals before High Court.</li>
-                    <li>Tribunal representations before NCLT, DRT &amp; KAT.</li>
+                    <li>Constitutional Writ Petitions (Mandamus, Certiorari, Habeas Corpus) under Article 226 and Supervisory Petitions under Article 227.</li>
+                    <li>Representation before specialized insolvency and debt forums including NCLT (Kochi Bench) and DRT (Ernakulam).</li>
+                    <li>Arbitration proceedings, contractual dispute resolution, and regulatory challenges before administrative tribunals.</li>
+                    <li>Corporate and civil drafting: legal notices, commercial contracts, partnership deeds, property conveyancing documents, and formal legal opinions.</li>
                 </ul>
             </div>
             <div class="practice-row-thumb">
@@ -154,33 +161,35 @@ require_once __DIR__ . '/includes/header.php';
                 </svg>
             </div>
             <div class="practice-text-content">
-                <h3>Commercial &amp; Advisory Services</h3>
+                <h3>Corporate, Commercial &amp; Regulatory Practice</h3>
                 <ul>
-                    <li>Company law matters, NCLT proceedings, DRT matters.</li>
-                    <li>Arbitration, legal drafting, agreements and notices.</li>
-                    <li>Documentation, vetting and legal opinions.</li>
+                    <li>Drafting, reviewing and negotiating commercial contracts.</li>
+                    <li>Advising on Data Privacy & Regulatory Compliance.</li>
+                    <li>Corporate Advisory, Legal Documentation & Legal Operations.</li>
+                
                 </ul>
             </div>
             <div class="practice-row-thumb">
-                <img src="assets/images/practice-commercial.jpg" alt="Commercial & Advisory">
+                <img src="assets/images/practice-commercial.jpg" alt="Corporate, Commercial & Advisory">
             </div>
         </div>
 
     </div>
 
-    <!-- Bottom Guidance CTA Strip -->
+    <!-- Bottom Guidance CTA Strip (BCI-Compliant Neutral Copy) -->
     <div class="guidance-cta-strip">
         <div class="guidance-cta-left">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
-                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke="currentColor">
+                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
             </svg>
             <div>
-                <div class="guidance-title">Need legal guidance?</div>
-                <div class="guidance-sub">We're here to help you.</div>
+                <div class="guidance-title">For enquiries relating to the Firm's areas of practice.</div>
+                <div class="guidance-sub">S&amp;V Associates &bull; Chambers at Ernakulam &amp; North Paravur</div>
             </div>
         </div>
         <a href="contact.php" class="btn-white-pill">
-            <span>CONTACT US</span>
+            <span>CONTACT / ENQUIRIES</span>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
     </div>

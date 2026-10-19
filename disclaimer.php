@@ -36,13 +36,16 @@ require_once __DIR__ . '/includes/header.php';
 
                 <ul style="padding-left: 24px; display:flex; flex-direction:column; gap:12px;">
                     <li>
-                        <strong>Informational Purpose Only:</strong> The user is seeking information relating to S&amp;V Associates of their own accord, and there has been no advertisement, personal communication, solicitation, invitation, or inducement of any sort whatsoever by S&amp;V Associates or any of its members.
+                        <strong>Informational Purpose Only:</strong> The user is seeking information relating to S&amp;V Associates of their own accord, and there has been no advertisement, personal communication, solicitation, invitation, or inducement of any sort whatsoever by S&amp;V Associates or any of its members under Rule 36 of the Bar Council of India Rules and Sections 35 and 49 of the Advocates Act, 1961.
                     </li>
                     <li>
                         <strong>No Legal Advice:</strong> The material on this website has been prepared for general informational purposes only and does not constitute formal legal advice, opinions, or statutory interpretations.
                     </li>
                     <li>
                         <strong>No Advocate-Client Relationship:</strong> Browsing this website, transmitting messages or enquiries via web forms, email, or telephone does not create or constitute an advocate-client relationship. Such a professional relationship is established solely upon formal engagement acceptance and signing of necessary Vakalatnama / retainer terms.
+                    </li>
+                    <li>
+                        <strong>Privacy Notice &amp; Preliminary Inquiries:</strong> Information submitted through enquiry forms or digital communication channels is intended solely for preliminary administrative coordination to schedule in-person or formal consultations. All submitted details are handled with professional discretion and are not published or indexed publicly.
                     </li>
                     <li>
                         <strong>Accuracy &amp; Due Diligence:</strong> While we endeavor to keep the website information updated, S&amp;V Associates shall not be held liable for any consequence of any action taken by the user relying on material or information provided on this website.

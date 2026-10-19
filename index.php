@@ -9,21 +9,31 @@ require_once __DIR__ . '/includes/header.php';
 <div class="home-main-wrapper">
     
     <!-- Hero Grid -->
+    <!-- Hero Grid -->
     <section class="hero-layout-grid">
         <div class="hero-text-side">
-            <h1 class="hero-main-h1">
-                Advocacy.<br>
-                Strategy.<br>
-                <span class="res-word">Results.</span>
-            </h1>
+            <!-- Brand Display & Subheadline from Content Document -->
+            <div class="hero-brand-block">
+                <h1 class="hero-brand-headline">S&amp;V ASSOCIATES</h1>
+                <div class="hero-brand-subheadline">
+                    Advocates &amp; Legal Consultants &mdash; Ernakulam <span class="sep">|</span> North Paravur
+                </div>
+            </div>
+
+            <!-- Core Principles / Motto (BCI Compliant: Results removed) -->
+            <div class="hero-main-h1">
+                Advocates.<br>
+                
+                <span class="res-word">& Legal Consultants.</span>
+            </div>
 
             <div class="hero-disciplines-tags">
                 MOTOR ACCIDENT CLAIMS <span class="sep">|</span> CIVIL LITIGATION <span class="sep">|</span> CRIMINAL LITIGATION<br>
-                FAMILY &amp; MATRIMONIAL MATTERS <span class="sep">|</span> HIGH COURT &amp; APPELLATE PRACTICE
+                FAMILY &amp; MATRIMONIAL MATTERS <span class="sep">|</span> HIGH COURT &amp; APPELLATE PRACTICE <span class="sep">|</span> CORPORATE CONSULTANCY SERVICE
             </div>
 
             <p class="hero-description-p">
-                S&amp;V Associates is a litigation-focused law firm established in May 2000. With practice offices opposite the High Court of Kerala in Ernakulam and in North Paravur, the Firm provides legal representation and counsel before trial courts, appellate benches, and specialized tribunals across Kerala.
+                S&amp;V Associates is a litigation-focused law firm established in May 2000. With practice offices opposite the High Court of Kerala in Ernakulam and in North Paravur, the Firm provides legal representation and counsel before trial courts, appellate benches, and specialised tribunals across Kerala
             </p>
 
             <div class="hero-button-row">
@@ -38,7 +48,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         </div>
 
-        <!-- Right Visual Arc with Birds -->
+        <!-- Right Visual Arc with Birds & High Court Reference Building -->
         <div class="hero-visual-side">
             <svg class="birds-silhouette" viewBox="0 0 100 80" fill="#2d3748">
                 <path d="M10,20 Q20,12 30,20 Q40,12 50,20 Q40,16 30,22 Q20,16 10,20 Z" />
@@ -46,7 +56,7 @@ require_once __DIR__ . '/includes/header.php';
                 <path d="M25,50 Q32,44 40,50 Q48,44 55,50 Q48,47 40,52 Q32,47 25,50 Z" transform="scale(0.5) translate(40, 30)" />
             </svg>
             <div class="high-court-arch-frame">
-                <img src="assets/images/high-court.jpg" alt="High Court of Kerala">
+                <img src="assets/images/hero-high-court.jpg" alt="High Court of Kerala Facade">
             </div>
         </div>
     </section>
@@ -55,7 +65,7 @@ require_once __DIR__ . '/includes/header.php';
     <section class="practice-section-wrap">
         <div class="practice-section-title-line">OUR PRACTICE AREAS</div>
 
-        <div class="five-practice-columns">
+        <div class="six-practice-columns">
             <!-- 1. MACT -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
@@ -65,7 +75,7 @@ require_once __DIR__ . '/includes/header.php';
                     <circle cx="17" cy="17" r="2"/>
                 </svg>
                 <h3 class="col-card-h3">Motor Accident Claims (MACT)</h3>
-                <p class="col-card-p">Compensation claims, liability disputes &amp; appeals before the High Court of Kerala.</p>
+                <p class="col-card-p">Handling statutory compensation proceedings, injury and dependency determinations, liability issues, and connected appeals before the High Court of Kerala.</p>
             </div>
 
             <!-- 2. Civil Litigation -->
@@ -77,7 +87,7 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="M12 3v18"/>
                 </svg>
                 <h3 class="col-card-h3">Civil Litigation</h3>
-                <p class="col-card-p">Suits, title &amp; partition, injunctions, contracts, rent control matters, execution petitions &amp; <strong>second appeals.</strong></p>
+                <p class="col-card-p">Representing clients in original suits, title and partition actions, injunctions, rent control disputes, contractual enforcement, execution petitions, and second appeals.</p>
             </div>
 
             <!-- 3. Criminal Defence -->
@@ -90,7 +100,7 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="m21 11-8-8"/>
                 </svg>
                 <h3 class="col-card-h3">Criminal Defence &amp; Litigation</h3>
-                <p class="col-card-p">Bail, NI Act matters, quashing petitions under Section 482 Cr.P.C.</p>
+                <p class="col-card-p">Trial representation, regular and anticipatory bail petitions, discharge proceedings, Section 138 NI Act matters, and quashing petitions under Section 482 Cr.P.C.</p>
             </div>
 
             <!-- 4. Family & Matrimonial -->
@@ -102,7 +112,7 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
                 <h3 class="col-card-h3">Family &amp; Matrimonial Matters</h3>
-                <p class="col-card-p">Divorce, maintenance, child custody, guardianship &amp; domestic violence.</p>
+                <p class="col-card-p">Managing matrimonial disputes, divorce, maintenance, alimony, child custody, guardianship proceedings, and domestic violence matters.</p>
             </div>
 
             <!-- 5. Appellate & Constitutional -->
@@ -111,7 +121,19 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="M4 22h16M4 2h16M6 2v20M18 2v20M10 6v12M14 6v12"/>
                 </svg>
                 <h3 class="col-card-h3">Appellate &amp; Constitutional Practice</h3>
-                <p class="col-card-p">Writs under Article 226, appeals &amp; tribunals representations before NCLT, DRT &amp; KAT.</p>
+                <p class="col-card-p">Managing matrimonial disputes, divorce, maintenance, alimony, child custody, guardianship proceedings, and domestic violence matters.</p>
+            </div>
+
+            <!-- 6. Corporate, Commercial & Advisory -->
+            <div class="col-card-unit">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                </svg>
+                <h3 class="col-card-h3">Corporate, Consultancy &amp; Service</h3>
+                <p class="col-card-p">Corporate and commercial matters, contracts, documentation, legal opinions, and NCLT-related work.</p>
             </div>
         </div>
     </section>

@@ -28,7 +28,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="about-col-head-title">INSTITUTIONAL FOUNDATION</div>
             </div>
             <p class="about-col-p">
-                Established in May 2000, S&amp;V Associates operates as a multi-disciplinary litigation firm. Founded by Late Adv. V. A. Anil, Adv. K. Shaju Varghese, and Adv. A. V. Vinu, the Firm is structured around courtroom advocacy and procedural litigation.
+                Established in May 2000, S&amp;V Associates operates as a multi-practice litigation firm. Founded by Late Adv. V. A. Anil, Adv. K. Shaju Varghese, and Adv. A. V. Vinu, the Firm is structured around courtroom advocacy and procedural litigation.
             </p>
         </div>
 
@@ -48,7 +48,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="about-col-head-title">OUR APPROACH</div>
             </div>
             <p class="about-col-p">
-                S&amp;V Associates represents individual litigants, families, and commercial entities, and non-resident Indians. The Firm's litigation workflow encompasses pre-litigation notice drafting, original suit and complaint filing, interlocutory relief management, evidentiary trials, execution procedures, and appellate remedies.
+                S&amp;V Associates represents individual litigants, families, commercial entities, and non-resident Indians. The Firm's litigation workflow encompasses pre-litigation notice drafting, original suit and complaint filings, interlocutory relief management, evidentiary trials, execution procedures, and appellate remedies.
             </p>
         </div>
     </div>
@@ -67,7 +67,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="partner-info">
                     <h3 class="partner-name">Adv. K. Shaju Varghese</h3>
                     <div class="partner-role-tag">Founder Partner</div>
-                    <p class="partner-bio">Focuses on civil litigation, real estate and property disputes, Motor Accident Claims, constitutional proceedings, and High Court appeals.</p>
+                    <p class="partner-bio">Focuses on civil litigation, real estate and property disputes, Motor Accident Claims, constitutional proceedings, and High Court appeals. </p>
                     <a href="tel:+919447292616" class="partner-phone">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                         <span>+91 9447292616</span>
@@ -83,7 +83,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="partner-info">
                     <h3 class="partner-name">Adv. A. V. Vinu</h3>
                     <div class="partner-role-tag">Founder Partner</div>
-                    <p class="partner-bio">Focuses on Motor Accident Claims, criminal trial defence, civil suits, Family Court litigation, and appellate representation.</p>
+                    <p class="partner-bio">Focuses on Motor Accident Claims, criminal trial defence, civil suits, Family Court litigation, and appellate representation. </p>
                     <a href="tel:+919847093010" class="partner-phone">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                         <span>+91 9847093010</span>
@@ -92,7 +92,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         </div>
 
-        <!-- Sub-sections: Advocates and Associate Legal Counsel -->
+        <!-- Sub-sections: Advocates and Associate Advocates -->
         <div class="team-sub-row">
             <div>
                 <div class="sub-box-title">ADVOCATES</div>
@@ -107,7 +107,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
             <div>
-                <div class="sub-box-title">ASSOCIATE LEGAL COUNSEL</div>
+                <div class="sub-box-title">ASSOCIATE ADVOCATES</div>
                 <div class="counsel-grid-2col">
                     <div class="counsel-item">Adv. Jyothi K.J.</div>
                     <div class="counsel-item">Adv. Nikhil Sebastian</div>

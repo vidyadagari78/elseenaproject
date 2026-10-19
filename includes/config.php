@@ -6,7 +6,8 @@ define('SITE_TAGLINE', 'Advocates & Legal Consultants');
 define('SITE_LOCATIONS', 'Ernakulam | North Paravur');
 define('ESTABLISHED_YEAR', 'May 2000');
 
-define('PRIMARY_EMAIL', 'advleosanjo@gmail.com');
+define('PRIMARY_EMAIL', 'svlegalassociates2026@gmail.com');
+define('ENQUIRY_NOTIFICATION_EMAIL', 'svlegalassociates2026@gmail.com');
 define('PRIMARY_WHATSAPP', '+91 9633552910');
 define('WHATSAPP_CLEAN', '919633552910');
 
@@ -19,8 +20,7 @@ $offices = [
         'city' => 'Ernakulam, Kerala',
         'full_address' => '3rd Floor, Adv. M. M. Mathew Building, Opposite Gate No. 2, High Court of Kerala, Ernakulam, Kerala',
         'phones' => [
-            ['display' => '+91 9447292616', 'clean' => '+919447292616', 'name' => 'Adv. K. Shaju Varghese'],
-            ['display' => '+91 9633552910', 'clean' => '+919633552910', 'name' => 'Adv. Leo Sanjo']
+            ['display' => '+91 9447292616', 'clean' => '+919447292616', 'name' => 'Adv. K. Shaju Varghese']
         ],
         'image' => 'assets/images/office-ernakulam.jpg',
         'maps_query' => 'High Court of Kerala, Ernakulam'
@@ -33,6 +33,7 @@ $offices = [
         'full_address' => '1st Floor, Municipal Shopping Complex, Opposite Punjab National Bank, Main Road, North Paravur, Ernakulam – 683513, Kerala',
         'phones' => [
             ['display' => '+91 9847093010', 'clean' => '+919847093010', 'name' => 'Adv. A. V. Vinu'],
+            ['display' => '+91 9633552910', 'clean' => '+919633552910', 'name' => 'Adv. Leo Sanjo'],
             ['display' => '+91 9947482842', 'clean' => '+919947482842', 'name' => 'Adv. Alen Shaju']
         ],
         'image' => 'assets/images/office-paravur.jpg',

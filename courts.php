@@ -49,7 +49,7 @@ require_once __DIR__ . '/includes/header.php';
                 <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
             </svg>
             <p class="courts-center-p">
-                We represent clients before a wide range of courts, tribunals and specialized forums across Kerala.
+                The Firm undertakes matters before the following courts, tribunals and statutory forums, subject to the nature and jurisdiction of each proceeding.
             </p>
         </div>
 
@@ -71,7 +71,7 @@ require_once __DIR__ . '/includes/header.php';
             </svg>
             <div>
                 <div class="court-node-title">Specialized Forums</div>
-                <div class="court-node-desc">MACT, Family Courts, Rent Control Appellate Authorities, Gram Nyayalayas, NCLT, Kerala Bench, DRT (Ernakulam), and Kerala Administrative Tribunal (KAT).</div>
+                <div class="court-node-desc">Motor Accidents Claims Tribunals (MACT), Family Courts, Rent Control Appellate Authorities, and Gram Nyayalayas.</div>
             </div>
         </div>
 
@@ -81,8 +81,8 @@ require_once __DIR__ . '/includes/header.php';
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/>
             </svg>
             <div>
-                <div class="court-node-title">Tribunals — Commercial</div>
-                <div class="court-node-desc">NCLT Kochi Bench, DRT Ernakulam, and Kerala Administrative Tribunal (KAT).</div>
+                <div class="court-node-title">Tribunals — Commercial &amp; Insolvency</div>
+                <div class="court-node-desc">National Company Law Tribunal (NCLT Kochi Bench) and Debts Recovery Tribunal (DRT Ernakulam).</div>
             </div>
         </div>
 
