@@ -25,6 +25,82 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $feedback = "You must acknowledge the compliance checkbox regarding the advocate-client relationship before submitting.";
         $feedback_type = "error";
     } else {
+        // Target notification recipient
+        $to = defined('ENQUIRY_NOTIFICATION_EMAIL') ? ENQUIRY_NOTIFICATION_EMAIL : 'svlegalassociates2026@gmail.com';
+        $subject = "New Legal Enquiry [" . $practice_area . "] - " . $full_name;
+
+        // Professional HTML Email Body
+        $sender_host = $_SERVER['SERVER_NAME'] ?? 'svassociates.in';
+        if ($sender_host === 'localhost' || $sender_host === '127.0.0.1') {
+            $sender_host = 'svassociates.in';
+        }
+        
+        $html_body = "
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset='UTF-8'>
+            <style>
+                body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f6f3eb; margin: 0; padding: 24px; color: #1e293b; }
+                .email-card { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+                .header-bar { background: #711326; color: #ffffff; padding: 22px 24px; text-align: center; }
+                .header-bar h1 { margin: 0; font-size: 20px; letter-spacing: 1.5px; font-weight: 700; }
+                .header-bar p { margin: 4px 0 0; font-size: 13px; color: #fce7f3; }
+                .content-body { padding: 24px; }
+                .info-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+                .info-table td { padding: 10px 12px; font-size: 14px; border-bottom: 1px solid #f1f5f9; }
+                .info-table td.label { font-weight: 700; color: #475569; width: 35%; background: #f8fafc; }
+                .info-table td.value { color: #0f172a; font-weight: 500; }
+                .overview-box { background: #fdfaf6; border-left: 4px solid #711326; padding: 14px 16px; border-radius: 4px; font-size: 14px; line-height: 1.6; color: #334155; margin-bottom: 20px; }
+                .compliance-badge { background: #f1f5f9; padding: 12px 14px; border-radius: 4px; font-size: 12px; color: #64748b; line-height: 1.5; }
+                .footer-bar { background: #0f1216; color: #94a3b8; font-size: 11px; text-align: center; padding: 14px 20px; }
+            </style>
+        </head>
+        <body>
+            <div class='email-card'>
+                <div class='header-bar'>
+                    <h1>S&amp;V ASSOCIATES</h1>
+                    <p>New Client Website Enquiry</p>
+                </div>
+                <div class='content-body'>
+                    <table class='info-table'>
+                        <tr><td class='label'>Client Name</td><td class='value'>" . htmlspecialchars($full_name) . "</td></tr>
+                        <tr><td class='label'>Phone / WhatsApp</td><td class='value'><a href='tel:" . htmlspecialchars($phone) . "'>" . htmlspecialchars($phone) . "</a></td></tr>
+                        <tr><td class='label'>Email Address</td><td class='value'><a href='mailto:" . htmlspecialchars($email) . "'>" . htmlspecialchars($email) . "</a></td></tr>
+                        <tr><td class='label'>Preferred Chamber</td><td class='value'>" . htmlspecialchars($preferred_office) . "</td></tr>
+                        <tr><td class='label'>Practice Area</td><td class='value'>" . htmlspecialchars($practice_area) . "</td></tr>
+                        <tr><td class='label'>Submitted Date &amp; Time</td><td class='value'>" . date('d M Y, h:i A') . " IST</td></tr>
+                    </table>
+
+                    <div style='font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #711326; margin-bottom: 6px;'>
+                        Matter / Subject Overview:
+                    </div>
+                    <div class='overview-box'>
+                        " . nl2br(htmlspecialchars($subject_overview)) . "
+                    </div>
+
+                    <div class='compliance-badge'>
+                        <strong>Compliance Note:</strong> The client acknowledged that submission of this enquiry form does not constitute an advocate-client relationship under BCI Rule 36.
+                    </div>
+                </div>
+                <div class='footer-bar'>
+                    S&amp;V Associates Advocates &amp; Legal Consultants &bull; Ernakulam &amp; North Paravur &bull; Official Website
+                </div>
+            </div>
+        </body>
+        </html>";
+
+        // Dispatch Email Headers
+        $headers = [];
+        $headers[] = 'MIME-Version: 1.0';
+        $headers[] = 'Content-type: text/html; charset=UTF-8';
+        $headers[] = 'From: S&V Associates Enquiry <no-reply@' . $sender_host . '>';
+        $headers[] = 'Reply-To: ' . $full_name . ' <' . $email . '>';
+        $headers[] = 'X-Mailer: PHP/' . phpversion();
+
+        // Attempt delivery via PHP mail()
+        $mail_sent = @mail($to, $subject, $html_body, implode("\r\n", $headers));
+
         // Save enquiry with Vercel serverless write fallback
         $dataDir = __DIR__ . '/data';
         if (!is_dir($dataDir)) {
@@ -45,6 +121,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'preferred_office' => $preferred_office,
             'practice_area' => $practice_area,
             'subject_overview' => $subject_overview,
+            'recipient_email' => $to,
+            'mail_dispatched' => $mail_sent,
             'ip' => $_SERVER['REMOTE_ADDR'] ?? 'UNKNOWN'
         ];
         @file_put_contents($dataFile, json_encode($existing, JSON_PRETTY_PRINT));
