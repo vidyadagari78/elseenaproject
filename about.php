@@ -1,6 +1,6 @@
 <?php
 $page_title = "About Us | S&V Associates — Advocates & Legal Consultants";
-$page_description = "Learn about S&V Associates, established in May 2000 in Ernakulam and North Paravur. Meet our founder partners Adv. K. Shaju Varghese, Adv. A. V. Vinu, and our legal team.";
+$page_description = "Learn about S&V Associates, established in May 1998 in Ernakulam and North Paravur. Meet our founder partners Adv. K. Shaju Varghese, Adv. A. V. Vinu, and our legal team.";
 
 require_once __DIR__ . '/includes/header.php';
 ?>
@@ -28,7 +28,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="about-col-head-title">INSTITUTIONAL FOUNDATION</div>
             </div>
             <p class="about-col-p">
-                Established in May 2000, S&amp;V Associates operates as a multi-disciplinary litigation firm. Founded by Late Adv. V. A. Anil, Adv. K. Shaju Varghese, and Adv. A. V. Vinu, the Firm is structured around courtroom advocacy and procedural litigation.
+                Established in May 1998, S&amp;V Associates operates as a multi-disciplinary litigation firm. Founded by Late Adv. V. A. Anil, Adv. K. Shaju Varghese, and Adv. A. V. Vinu, the Firm is structured around courtroom advocacy and procedural litigation.
             </p>
         </div>
 
@@ -83,7 +83,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="partner-info">
                     <h3 class="partner-name">Adv. A. V. Vinu</h3>
                     <div class="partner-role-tag">Founder Partner</div>
-                    <p class="partner-bio">Focuses on Motor Accident Claims, criminal trial defence, civil suits, Family Court litigation, and appellate representation.</p>
+                    <p class="partner-bio">Focuses on Motor Accident Claims, criminal trial defence, Family Court litigation, constitutional proceedings, and High Court appeals.</p>
                     <a href="tel:+919847093010" class="partner-phone">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                         <span>+91 9847093010</span>
@@ -92,10 +92,10 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         </div>
 
-        <!-- Sub-sections: Advocates and Associate Legal Counsel -->
+        <!-- Sub-sections: Partners and Associate Advocates -->
         <div class="team-sub-row">
             <div>
-                <div class="sub-box-title">ADVOCATES</div>
+                <div class="sub-box-title">PARTNERS</div>
                 <div class="advocate-line">
                     <strong>Adv. Leo Sanjo</strong>
                     <span>+91 9633552910</span>
@@ -107,13 +107,13 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
             <div>
-                <div class="sub-box-title">ASSOCIATE LEGAL COUNSEL</div>
+                <div class="sub-box-title">ASSOCIATE ADVOCATES</div>
                 <div class="counsel-grid-2col">
                     <div class="counsel-item">Adv. Jyothi K.J.</div>
                     <div class="counsel-item">Adv. Nikhil Sebastian</div>
                     <div class="counsel-item">Adv. Dayana Saji</div>
                     <div class="counsel-item">Adv. Anaswara K.P.</div>
-                    <div class="counsel-item">Adv. Mariyam Thevveeghil Pious</div>
+                    <div class="counsel-item">Adv. Mariyam Theweeghi Pious</div>
                     <div class="counsel-item">Adv. Devika P.S.</div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="court-attend-card">
             <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18"/><line x1="10" x2="10" y1="18"/><line x1="14" x2="14" y1="18"/><line x1="18" x2="18" y1="18"/><polygon points="12 2 20 7 4 7"/></svg>
             <h3 class="court-attend-title">Appellate &amp; Constitutional</h3>
-            <p class="court-attend-desc">High Court of Kerala (Article 226/227, Matrimonial, Civil, Criminal &amp; MACT Appeals).</p>
+            <p class="court-attend-desc">High Court of Kerala (Writ Petitions 226/227, Matrimonial, Civil, Criminal &amp; MACT Appeals).</p>
         </div>
 
         <div class="court-attend-card">
@@ -139,13 +139,13 @@ require_once __DIR__ . '/includes/header.php';
         <div class="court-attend-card">
             <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="6" cy="18" r="4"/><circle cx="18" cy="18" r="4"/><path d="M10 18h4"/><path d="M6 14V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8"/></svg>
             <h3 class="court-attend-title">Criminal Jurisdictions</h3>
-            <p class="court-attend-desc">District &amp; Sessions Courts, Judicial First Class Magistrate Courts (JFCM), &amp; Fast Track Courts.</p>
+            <p class="court-attend-desc">District &amp; Sessions Courts, Judicial First Class Magistrate Courts (JFCM), &amp; Fast Track Courts (POCSO).</p>
         </div>
 
         <div class="court-attend-card">
             <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
             <h3 class="court-attend-title">Specialized Forums</h3>
-            <p class="court-attend-desc">MACT, Family Courts, Rent Control Appellate Authorities, NCLT, DRT (Ernakulam &amp; KAT).</p>
+            <p class="court-attend-desc">MACT, Family Courts, and Rent Control Appellate Authorities.</p>
         </div>
     </div>
 

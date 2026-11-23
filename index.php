@@ -1,6 +1,6 @@
 <?php
 $page_title = "S&V Associates | Advocates in Ernakulam & North Paravur | MACT, Civil, Criminal, Family & High Court";
-$page_description = "S&V Associates is a litigation-focused law firm established in May 2000. With practice offices opposite the High Court of Kerala in Ernakulam and in North Paravur, the Firm provides legal representation and counsel before trial courts, appellate benches, and specialized tribunals across Kerala.";
+$page_description = "S&V Associates is a litigation-focused law firm established in May 1998. With practice offices opposite the High Court of Kerala in Ernakulam and in North Paravur, the Firm provides legal representation and counsel before trial courts, appellate benches, and specialized tribunals across Kerala.";
 
 require_once __DIR__ . '/includes/header.php';
 ?>
@@ -18,12 +18,12 @@ require_once __DIR__ . '/includes/header.php';
             </h1>
 
             <div class="hero-disciplines-tags">
-                MOTOR ACCIDENT CLAIMS <span class="sep">|</span> CIVIL LITIGATION <span class="sep">|</span> CRIMINAL LITIGATION<br>
-                FAMILY &amp; MATRIMONIAL MATTERS <span class="sep">|</span> HIGH COURT &amp; APPELLATE PRACTICE
+                HIGH COURT &amp; APPELLATE PRACTICE <span class="sep">|</span> CIVIL LITIGATION <span class="sep">|</span> CRIMINAL LITIGATION<br>
+                FAMILY &amp; MATRIMONIAL MATTERS <span class="sep">|</span> MOTOR ACCIDENT CLAIMS <span class="sep">|</span> CORPORATE CONSULTANCY SERVICE
             </div>
 
             <p class="hero-description-p">
-                S&amp;V Associates is a litigation-focused law firm established in May 2000. With practice offices opposite the High Court of Kerala in Ernakulam and in North Paravur, the Firm provides legal representation and counsel before trial courts, appellate benches, and specialized tribunals across Kerala.
+                S&amp;V Associates is a litigation-focused law firm established in May 1998. With practice offices opposite the High Court of Kerala in Ernakulam and in North Paravur, the Firm provides legal representation and counsel before trial courts, appellate benches, and specialized tribunals across Kerala.
             </p>
 
             <div class="hero-button-row">
@@ -56,19 +56,16 @@ require_once __DIR__ . '/includes/header.php';
         <div class="practice-section-title-line">OUR PRACTICE AREAS</div>
 
         <div class="five-practice-columns">
-            <!-- 1. MACT -->
+            <!-- 1. Appellate & Constitutional Practice (Card 1) -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
-                    <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.9 2 11.2 2 11.5V16c0 .6.4 1 1 1h2"/>
-                    <circle cx="7" cy="17" r="2"/>
-                    <path d="M9 17h6"/>
-                    <circle cx="17" cy="17" r="2"/>
+                    <path d="M4 22h16M4 2h16M6 2v20M18 2v20M10 6v12M14 6v12"/>
                 </svg>
-                <h3 class="col-card-h3">Motor Accident Claims (MACT)</h3>
-                <p class="col-card-p">Compensation claims, liability disputes &amp; appeals before the High Court of Kerala.</p>
+                <h3 class="col-card-h3">Appellate &amp; Constitutional Practice</h3>
+                <p class="col-card-p">High Court writ petitions under Article 226/227, regular first &amp; second appeals, revisions &amp; appellate representation.</p>
             </div>
 
-            <!-- 2. Civil Litigation -->
+            <!-- 2. Civil Litigation (Card 2) -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
                     <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
@@ -77,10 +74,10 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="M12 3v18"/>
                 </svg>
                 <h3 class="col-card-h3">Civil Litigation</h3>
-                <p class="col-card-p">Suits, title &amp; partition, injunctions, contracts, rent control matters, execution petitions &amp; <strong>second appeals.</strong></p>
+                <p class="col-card-p">Original suits, title &amp; partition, injunctions, rent control disputes, contractual enforcement, execution petitions &amp; <strong>second appeals.</strong></p>
             </div>
 
-            <!-- 3. Criminal Defence -->
+            <!-- 3. Criminal Defence & Litigation (Card 3) -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
                     <path d="m14 13-7.5 7.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L11 10"/>
@@ -90,10 +87,10 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="m21 11-8-8"/>
                 </svg>
                 <h3 class="col-card-h3">Criminal Defence &amp; Litigation</h3>
-                <p class="col-card-p">Bail, NI Act matters, quashing petitions under Section 482 Cr.P.C.</p>
+                <p class="col-card-p">Trial representation, regular and anticipatory bail petitions, discharge proceedings, Cheque dishonor matters, and quashing petitions.</p>
             </div>
 
-            <!-- 4. Family & Matrimonial -->
+            <!-- 4. Family & Matrimonial Matters (Card 4) -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -102,16 +99,31 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
                 <h3 class="col-card-h3">Family &amp; Matrimonial Matters</h3>
-                <p class="col-card-p">Divorce, maintenance, child custody, guardianship &amp; domestic violence.</p>
+                <p class="col-card-p">Managing matrimonial disputes, divorce, maintenance, alimony, child custody, guardianship proceedings, and domestic violence.</p>
             </div>
 
-            <!-- 5. Appellate & Constitutional -->
+            <!-- 5. Motor Accident Claims (MACT) (Card 5) -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
-                    <path d="M4 22h16M4 2h16M6 2v20M18 2v20M10 6v12M14 6v12"/>
+                    <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.9 2 11.2 2 11.5V16c0 .6.4 1 1 1h2"/>
+                    <circle cx="7" cy="17" r="2"/>
+                    <path d="M9 17h6"/>
+                    <circle cx="17" cy="17" r="2"/>
                 </svg>
-                <h3 class="col-card-h3">Appellate &amp; Constitutional Practice</h3>
-                <p class="col-card-p">Writs under Article 226, appeals &amp; tribunals representations before NCLT, DRT &amp; KAT.</p>
+                <h3 class="col-card-h3">Motor Accident Claims (MACT)</h3>
+                <p class="col-card-p">Handling statutory compensation proceedings, injury &amp; dependency determinations, liability issues, and connected appeals before High Court.</p>
+            </div>
+
+            <!-- 6. Corporate, Consultancy & Service (Card 6) -->
+            <div class="col-card-unit">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                </svg>
+                <h3 class="col-card-h3">Corporate, Consultancy &amp; Service</h3>
+                <p class="col-card-p">Corporate and commercial matters, contracts, documentation, and formal legal opinions.</p>
             </div>
         </div>
     </section>
@@ -125,7 +137,7 @@ require_once __DIR__ . '/includes/header.php';
             </svg>
             <div>
                 <div class="dark-col-title">FOUNDATIONAL STRENGTH</div>
-                <div class="dark-col-desc">Established in May 2000 by Late Adv. V. A. Anil, Adv. K. Shaju Varghese and Adv. A. V. Vinu.</div>
+                <div class="dark-col-desc">Established in May 1998 by Late Adv. V. A. Anil, Adv. K. Shaju Varghese and Adv. A. V. Vinu.</div>
             </div>
         </div>
 

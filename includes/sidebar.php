@@ -81,12 +81,12 @@ require_once __DIR__ . '/config.php';
         </nav>
     </div>
 
-    <!-- Established May 2000 Bottom Badge -->
+    <!-- Established May 1998 Bottom Badge -->
     <div class="sidebar-bottom">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 22h16M4 2h16M6 2v20M18 2v20M10 6v12M14 6v12"/>
         </svg>
         <div class="est-text-top">ESTABLISHED</div>
-        <div class="est-text-val">MAY 2000</div>
+        <div class="est-text-val">MAY 1998</div>
     </div>
 </aside>

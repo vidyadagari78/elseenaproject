@@ -499,7 +499,7 @@ img {
 
 .five-practice-columns {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     background: #ffffff;
     border: 1px solid var(--border-light);
     border-radius: 6px;
@@ -508,7 +508,7 @@ img {
 }
 
 .col-card-unit {
-    padding: 22px 14px;
+    padding: 20px 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1379,12 +1379,20 @@ textarea.form-input {
     .five-practice-columns {
         grid-template-columns: repeat(3, 1fr);
     }
+    .col-card-unit {
+        border-right: 1px solid var(--border-light);
+        border-bottom: 1px solid var(--border-light);
+    }
     .courts-interactive-canvas {
         grid-template-columns: 1fr;
     }
+    .court-node-box {
+        grid-column: 1 !important;
+        grid-row: auto !important;
+    }
     .courts-center-hexagon {
-        grid-column: 1;
-        grid-row: auto;
+        grid-column: 1 !important;
+        grid-row: auto !important;
     }
     .practice-row-item {
         grid-template-columns: 40px 32px 1fr;
@@ -1417,6 +1425,10 @@ textarea.form-input {
     }
     .five-practice-columns {
         grid-template-columns: 1fr;
+    }
+    .col-card-unit:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid var(--border-light);
     }
     .practice-section-wrap {
         padding: 0 20px;

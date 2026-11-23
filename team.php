@@ -50,7 +50,7 @@ require_once __DIR__ . '/includes/header.php';
                     <h3 class="partner-name">Adv. A. V. Vinu</h3>
                     <div class="partner-role-tag">Founder Partner</div>
                     <p class="partner-bio">
-                        MACT, criminal defence, civil suits, Family Court litigation and appellate representation.
+                        Areas of practice include Criminal Trial defence, Family Court litigation, Motor Accident Claims, Constitutional Proceedings and High Court appeals.
                     </p>
                 </div>
                 <a href="tel:+919847093010" class="partner-phone">
@@ -61,13 +61,13 @@ require_once __DIR__ . '/includes/header.php';
         </div>
     </div>
 
-    <!-- Advocates and Associate Legal Counsel White Box -->
+    <!-- Partners and Associate Advocates White Box -->
     <div class="team-sub-white-box">
         <div class="team-sub-row">
             <div>
                 <div class="sub-box-title" style="display:flex; align-items:center; gap:8px;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-                    <span>Advocates</span>
+                    <span>Partners</span>
                 </div>
                 <div class="advocate-line">
                     <strong>Adv. Leo Sanjo</strong>
@@ -82,14 +82,14 @@ require_once __DIR__ . '/includes/header.php';
             <div>
                 <div class="sub-box-title" style="display:flex; align-items:center; gap:8px;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-                    <span>Associate Legal Counsel</span>
+                    <span>Associate Advocates</span>
                 </div>
                 <div class="counsel-grid-2col">
                     <div class="counsel-item">Adv. Jyothi K.J.</div>
                     <div class="counsel-item">Adv. Nikhil Sebastian</div>
                     <div class="counsel-item">Adv. Dayana Saji</div>
                     <div class="counsel-item">Adv. Anaswara K.P.</div>
-                    <div class="counsel-item">Adv. Mariyam Thevveeghil Pious</div>
+                    <div class="counsel-item">Adv. Mariyam Theweeghi Pious</div>
                     <div class="counsel-item">Adv. Devika P.S.</div>
                 </div>
             </div>
