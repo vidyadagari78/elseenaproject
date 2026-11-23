@@ -6,6 +6,16 @@ require_once __DIR__ . '/config.php';
         <!-- Brand Logo -->
         <div class="sidebar-logo">
             <a href="index.php">
+                <div class="sidebar-logo-crest">
+                    <svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3v18"/>
+                        <path d="M7 21h10"/>
+                        <path d="M3 7h18"/>
+                        <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                        <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                        <circle cx="12" cy="4" r="1.5"/>
+                    </svg>
+                </div>
                 <div class="logo-main">S<span>&amp;</span>V</div>
                 <div class="logo-sub">ASSOCIATES</div>
                 <div class="logo-tagline">ADVOCATES &amp;<br>LEGAL CONSULTANTS</div>
