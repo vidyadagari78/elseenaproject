@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 title S&V Associates Web Server
 echo =======================================================
 echo Starting S&V Associates Local Web Server...

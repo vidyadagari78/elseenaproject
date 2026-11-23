@@ -11,10 +11,18 @@ require_once __DIR__ . '/includes/header.php';
     <!-- Hero Grid -->
     <section class="hero-layout-grid">
         <div class="hero-text-side">
+            <!-- Brand Display & Subheadline from Content Document -->
+            <div class="hero-brand-block">
+                <div class="hero-brand-headline">S&amp;V ASSOCIATES</div>
+                <div class="hero-brand-subheadline">
+                    ADVOCATES &amp; LEGAL CONSULTANTS &mdash; ERNAKULAM <span class="sep">|</span> NORTH PARAVUR
+                </div>
+            </div>
+
             <h1 class="hero-main-h1">
-                Advocacy.<br>
-                Strategy.<br>
-                <span class="res-word">Results.</span>
+                Advocates.<br>
+                &amp; Legal<br>
+                Consultants.
             </h1>
 
             <div class="hero-disciplines-tags">
@@ -46,7 +54,7 @@ require_once __DIR__ . '/includes/header.php';
                 <path d="M25,50 Q32,44 40,50 Q48,44 55,50 Q48,47 40,52 Q32,47 25,50 Z" transform="scale(0.5) translate(40, 30)" />
             </svg>
             <div class="high-court-arch-frame">
-                <img src="assets/images/high-court.jpg" alt="High Court of Kerala">
+                <img src="assets/images/hero-high-court.jpg" alt="High Court of Kerala Facade">
             </div>
         </div>
     </section>
