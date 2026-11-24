@@ -34,7 +34,7 @@ if (!isset($page_description)) {
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="sidebarOverlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:999;"></div>
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
     
     <!-- Include Persistent Sidebar -->
     <?php require_once __DIR__ . '/sidebar.php'; ?>

@@ -249,6 +249,39 @@ img {
     background-color: var(--bg-page);
 }
 
+.mobile-nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+    color: #111417;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.mobile-nav-toggle:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .top-location-badge {
     display: inline-flex;
     align-items: center;
@@ -1494,68 +1527,311 @@ textarea.form-input {
 }
 
 @media (max-width: 768px) {
+    .mobile-nav-toggle {
+        display: flex !important;
+    }
     .app-sidebar {
-        display: none;
+        display: flex !important;
+        position: fixed !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 280px !important;
+        max-width: 85vw !important;
+        z-index: 1000 !important;
+        transform: translateX(-100%) !important;
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        box-shadow: 4px 0 25px rgba(0, 0, 0, 0.35) !important;
+        overflow-y: auto !important;
+    }
+    .app-sidebar.open {
+        transform: translateX(0) !important;
     }
     .app-main {
-        margin-left: 0;
+        margin-left: 0 !important;
+        width: 100% !important;
     }
-    .hero-layout-grid {
-        grid-template-columns: 1fr;
-        padding: 20px;
-        min-height: auto;
+    .top-nav-bar {
+        padding: 12px 18px !important;
     }
-    .hero-brand-headline {
-        font-size: 1.6rem;
-    }
-    .hero-brand-subheadline {
-        font-size: 0.72rem;
-    }
-    .hero-main-h1 {
-        font-size: 2.5rem;
-    }
-    .high-court-arch-frame {
-        width: 280px;
-        height: 280px;
-        min-height: 280px;
-        border-radius: 140px 140px 16px 16px;
-    }
-    .five-practice-columns {
-        grid-template-columns: 1fr;
-    }
-    .col-card-unit:not(:last-child) {
-        border-right: none;
-        border-bottom: 1px solid var(--border-light);
-    }
-    .practice-section-wrap {
-        padding: 0 20px;
-    }
-    .bottom-dark-bar {
-        padding: 20px;
-        grid-template-columns: 1fr;
-    }
-    .about-three-cols {
-        grid-template-columns: 1fr;
-    }
-    .founders-side-by-side {
-        grid-template-columns: 1fr;
-    }
-    .team-sub-row {
-        grid-template-columns: 1fr;
-    }
-    .courts-four-cols {
-        grid-template-columns: 1fr 1fr;
+    .top-location-badge {
+        font-size: 0.62rem !important;
+        letter-spacing: 1.2px !important;
     }
     .top-menu-links {
-        display: none;
+        display: none !important;
     }
     .page-container {
-        padding: 10px 20px 20px;
+        padding: 12px 16px 20px !important;
+    }
+    .page-header-strip {
+        padding-bottom: 10px !important;
+        margin-bottom: 16px !important;
+    }
+    .page-title-main {
+        font-size: 1.8rem !important;
+    }
+    .page-header-thumb {
+        width: 100px !important;
+        height: 54px !important;
+    }
+
+    /* Home Hero */
+    .hero-layout-grid {
+        grid-template-columns: 1fr !important;
+        padding: 16px 16px 20px !important;
+        min-height: auto !important;
+        gap: 20px !important;
+    }
+    .hero-text-side {
+        padding: 10px 0 0 !important;
+        max-width: 100% !important;
+    }
+    .hero-brand-headline {
+        font-size: 1.7rem !important;
+    }
+    .hero-brand-subheadline {
+        font-size: 0.7rem !important;
+        margin-bottom: 12px !important;
+    }
+    .hero-main-h1 {
+        font-size: 2.6rem !important;
+        margin-bottom: 14px !important;
+    }
+    .hero-disciplines-tags {
+        font-size: 0.6rem !important;
+        line-height: 1.5 !important;
+        margin-bottom: 14px !important;
+    }
+    .hero-visual-side {
+        min-height: 300px !important;
+        height: auto !important;
+        justify-content: center !important;
+        padding: 10px 0 !important;
+    }
+    .high-court-arch-frame {
+        width: 320px !important;
+        height: 320px !important;
+        min-height: 320px !important;
+        border-radius: 160px 160px 16px 16px !important;
+        max-width: 100% !important;
+    }
+
+    /* Practice Areas Columns on Home */
+    .practice-section-wrap {
+        padding: 0 16px !important;
+    }
+    .five-practice-columns {
+        grid-template-columns: 1fr !important;
+    }
+    .col-card-unit:not(:last-child) {
+        border-right: none !important;
+        border-bottom: 1px solid var(--border-light) !important;
+    }
+    .bottom-dark-bar {
+        padding: 20px 16px !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    /* Team page */
+    .team-partners-two-col {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+    .team-sub-row {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    /* About page */
+    .about-three-cols {
+        grid-template-columns: 1fr !important;
+    }
+    .founders-side-by-side {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Courts page */
+    .courts-four-cols {
+        grid-template-columns: 1fr !important;
+    }
+    .courts-interactive-canvas {
+        padding: 16px 14px !important;
+    }
+
+    /* Practice areas page */
+    .practice-row-item {
+        grid-template-columns: 36px 28px 1fr !important;
+        gap: 10px !important;
+        padding: 12px 14px !important;
+    }
+    .practice-row-thumb {
+        display: none !important;
+    }
+
+    /* Contact page */
+    .contact-layout-split {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    .contact-quick-strip {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+        padding: 14px !important;
+    }
+    .quick-comm-item {
+        word-break: break-word !important;
+    }
+    .office-phone-pill {
+        font-size: 0.68rem !important;
+        line-height: 1.45 !important;
     }
     .bci-footer-discreet {
-        padding: 12px 20px;
-        flex-direction: column;
-        gap: 8px;
-        text-align: center;
+        padding: 14px 16px !important;
+        flex-direction: column !important;
+        gap: 8px !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .top-nav-bar {
+        padding: 10px 14px !important;
+    }
+    .top-location-badge {
+        font-size: 0.58rem !important;
+        letter-spacing: 0.8px !important;
+    }
+    .page-container {
+        padding: 10px 12px 18px !important;
+    }
+    .page-title-main {
+        font-size: 1.5rem !important;
+    }
+    .page-header-thumb {
+        display: none !important;
+    }
+
+    /* Hero Phone Size */
+    .hero-main-h1 {
+        font-size: 2.2rem !important;
+    }
+    .hero-brand-headline {
+        font-size: 1.45rem !important;
+    }
+    .hero-button-row {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 10px !important;
+    }
+    .btn-burgundy-fill, .btn-burgundy-border {
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+        padding: 11px 16px !important;
+    }
+    .high-court-arch-frame {
+        width: 250px !important;
+        height: 250px !important;
+        min-height: 250px !important;
+        border-radius: 125px 125px 14px 14px !important;
+    }
+
+    /* Contact Page Cards */
+    .office-dual-card {
+        flex-direction: column !important;
+        padding: 12px !important;
+        gap: 12px !important;
+    }
+    .office-thumb-sm {
+        width: 100% !important;
+        height: 150px !important;
+    }
+    .office-body-sm h3 {
+        font-size: 0.8rem !important;
+    }
+    .office-body-sm p {
+        font-size: 0.72rem !important;
+        line-height: 1.4 !important;
+    }
+    .office-phone-pill {
+        font-size: 0.68rem !important;
+        flex-wrap: wrap !important;
+    }
+    .form-grid-2 {
+        grid-template-columns: 1fr !important;
+        gap: 8px !important;
+    }
+    .enquiry-white-card {
+        padding: 18px 14px !important;
+    }
+    .contact-bottom-offices {
+        flex-direction: column !important;
+        gap: 10px !important;
+        text-align: center !important;
+        padding-top: 12px !important;
+    }
+
+    /* Team Partner Cards */
+    .team-partner-white-card {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        padding: 16px 14px !important;
+    }
+    .team-partner-photo {
+        width: 110px !important;
+        height: 110px !important;
+        margin: 0 auto !important;
+    }
+    .partner-phone {
+        justify-content: center !important;
+    }
+    .counsel-grid-2col {
+        grid-template-columns: 1fr !important;
+        gap: 6px !important;
+    }
+
+    /* Practice Areas Page Rows */
+    .practice-row-item {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 8px !important;
+        padding: 14px 12px !important;
+    }
+    .practice-num-box {
+        width: auto !important;
+        min-width: 32px !important;
+        height: 24px !important;
+        font-size: 0.7rem !important;
+        padding: 0 6px !important;
+    }
+    .practice-icon-box {
+        display: none !important;
+    }
+    .practice-text-content h3 {
+        font-size: 0.88rem !important;
+        margin-bottom: 6px !important;
+    }
+    .practice-text-content ul li {
+        font-size: 0.72rem !important;
+        line-height: 1.45 !important;
+    }
+    .guidance-cta-strip {
+        flex-direction: column !important;
+        gap: 14px !important;
+        text-align: center !important;
+        padding: 16px 14px !important;
+    }
+    .guidance-cta-left {
+        flex-direction: column !important;
+        gap: 8px !important;
+        align-items: center !important;
+    }
+    .btn-white-pill {
+        width: 100% !important;
+        justify-content: center !important;
     }
 }

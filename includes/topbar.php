@@ -3,8 +3,8 @@ require_once __DIR__ . '/config.php';
 $is_home = basename($_SERVER['PHP_SELF']) === 'index.php';
 ?>
 <header class="top-nav-bar">
-    <div style="display:flex; align-items:center; gap:16px;">
-        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation" style="display:none; background:none; border:none; cursor:pointer;">
+    <div style="display:flex; align-items:center; gap:14px;">
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111417" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
         <div class="top-location-badge">
