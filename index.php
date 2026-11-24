@@ -82,7 +82,7 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="M12 3v18"/>
                 </svg>
                 <h3 class="col-card-h3">Civil Litigation</h3>
-                <p class="col-card-p">Original suits, title &amp; partition, injunctions, rent control disputes, contractual enforcement, execution petitions &amp; <strong>second appeals.</strong></p>
+                <p class="col-card-p">Original suits, title &amp; partition, injunctions, rent control disputes, contractual enforcement, execution petitions &amp; second appeals.</p>
             </div>
 
             <!-- 3. Criminal Defence & Litigation (Card 3) -->
