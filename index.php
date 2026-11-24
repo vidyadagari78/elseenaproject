@@ -64,13 +64,13 @@ require_once __DIR__ . '/includes/header.php';
         <div class="practice-section-title-line">OUR PRACTICE AREAS</div>
 
         <div class="five-practice-columns">
-            <!-- 1. High Court, Appellate, Commercial & Advisory (Card 1) -->
+            <!-- 1. Appellate & Constitutional Practice (Card 1) -->
             <div class="col-card-unit">
                 <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
                     <path d="M4 22h16M4 2h16M6 2v20M18 2v20M10 6v12M14 6v12"/>
                 </svg>
-                <h3 class="col-card-h3">High Court, Appellate, Commercial &amp; Advisory</h3>
-                <p class="col-card-p">High Court writ petitions under Article 226/227, corporate and civil drafting, contracts, and formal legal opinions.</p>
+                <h3 class="col-card-h3">Appellate &amp; Constitutional Practice</h3>
+                <p class="col-card-p">High Court writ petitions under Article 226/227, regular first &amp; second appeals, revisions &amp; appellate representation.</p>
             </div>
 
             <!-- 2. Civil Litigation (Card 2) -->
