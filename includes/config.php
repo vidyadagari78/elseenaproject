@@ -32,10 +32,10 @@ $offices = [
         'city' => 'North Paravur, Ernakulam – 683513, Kerala',
         'full_address' => '1st Floor, Municipal Shopping Complex, Opposite Punjab National Bank, Main Road, North Paravur, Ernakulam – 683513, Kerala',
         'phones' => [
-            ['display' => '+91 9847093010', 'clean' => '+919847093010', 'name' => 'Adv. A. V. Vinu'],
-            ['display' => '+91 9447292616', 'clean' => '+919447292616', 'name' => 'Adv. K. Shaju Varghese'],
             ['display' => '+91 9633552910', 'clean' => '+919633552910', 'name' => 'Adv. Leo Sanjo'],
-            ['display' => '+91 9947782842', 'clean' => '+919947782842', 'name' => 'Adv. Alen Shaju']
+            ['display' => '+91 9947782842', 'clean' => '+919947782842', 'name' => 'Adv. Alen Shaju'],
+            ['display' => '+91 9847093010', 'clean' => '+919847093010', 'name' => 'Adv. A. V. Vinu'],
+            ['display' => '+91 9447292616', 'clean' => '+919447292616', 'name' => 'Adv. K. Shaju Varghese']
         ],
         'image' => 'assets/images/office-paravur.jpg',
         'maps_query' => 'Municipal Shopping Complex, North Paravur, Kerala'
