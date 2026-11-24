@@ -1242,8 +1242,14 @@ img {
     color: var(--burgundy);
     font-weight: 700;
     display: flex;
-    align-items: center;
-    gap: 5px;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.45;
+}
+
+.office-phone-pill svg {
+    flex-shrink: 0;
+    margin-top: 3px;
 }
 
 .contact-quick-strip {
