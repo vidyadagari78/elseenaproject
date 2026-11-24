@@ -102,7 +102,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
                 <div class="advocate-line">
                     <strong>Adv. Alen Shaju</strong>
-                    <span>+91 9947782842</span>
+                    <span>+91 9947482842</span>
                 </div>
             </div>
 
