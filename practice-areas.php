@@ -21,7 +21,7 @@ require_once __DIR__ . '/includes/header.php';
     <!-- 01 - 06 Numbered Practice Rows in Master White Container -->
     <div class="practice-master-card">
         
-        <!-- Row 01: High Court, Appellate & Constitutional Practice (Card ①) -->
+        <!-- Row 01: High Court, Appellate, Commercial & Advisory (Card ①) -->
         <div class="practice-row-item">
             <div class="practice-num-box">01</div>
             <div class="practice-icon-box">
@@ -35,10 +35,9 @@ require_once __DIR__ . '/includes/header.php';
                 </svg>
             </div>
             <div class="practice-text-content">
-                <h3>High Court, Appellate &amp; Constitutional Practice</h3>
+                <h3>High Court, Appellate, Commercial &amp; Advisory</h3>
                 <ul>
                     <li>Constitutional Writ Petitions (Mandamus, Certiorari, Habeas Corpus) under Article 226 and Supervisory Petitions under Article 227.</li>
-                    <li>Regular First Appeals (RFA), Regular Second Appeals (RSA), Civil Revision Petitions (CRP), MACT Appeals (MACA), and Criminal Appeals.</li>
                     <li>Corporate and civil drafting: legal notices, commercial contracts, partnership deeds, property conveyancing documents, and formal legal opinions.</li>
                 </ul>
             </div>

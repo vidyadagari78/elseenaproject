@@ -11,7 +11,7 @@ A modern, responsive, litigation-focused law firm website built with **PHP**, be
   - **Ernakulam (High Court)**: 3rd Floor, M. M. Mathew Building, Opposite Gate No. 2, High Court of Kerala, Ernakulam.
   - **North Paravur**: 1st Floor, Municipal Shopping Complex, Opposite Punjab National Bank, Main Road, North Paravur – 683513.
 - **Key Practice Areas**:
-  - High Court, Appellate & Constitutional Practice
+  - High Court, Appellate, Commercial & Advisory
   - Civil Litigation & Property Disputes
   - Criminal Defence & Litigation
   - Family & Matrimonial Matters
