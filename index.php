@@ -95,7 +95,7 @@ require_once __DIR__ . '/includes/header.php';
                     <path d="m21 11-8-8"/>
                 </svg>
                 <h3 class="col-card-h3">Criminal Defence &amp; Litigation</h3>
-                <p class="col-card-p">Trial representation, regular and anticipatory bail petitions, discharge proceedings, Cheque dishonor matters, and quashing petitions.</p>
+                <p class="col-card-p">Trial representation, regular and anticipatory bail petitions, discharge proceedings, and Cheque dishonor matters.</p>
             </div>
 
             <!-- 4. Family & Matrimonial Matters (Card 4) -->
