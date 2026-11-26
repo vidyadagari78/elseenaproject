@@ -54,7 +54,7 @@ require_once __DIR__ . '/includes/header.php';
                 <path d="M25,50 Q32,44 40,50 Q48,44 55,50 Q48,47 40,52 Q32,47 25,50 Z" transform="scale(0.5) translate(40, 30)" />
             </svg>
             <div class="high-court-arch-frame">
-                <img src="assets/images/hero-high-court.jpg" alt="High Court of Kerala Facade">
+                <img src="assets/images/hero-justice.jpg" alt="Lady Justice, Constitution of India, and Gavel">
             </div>
         </div>
     </section>
