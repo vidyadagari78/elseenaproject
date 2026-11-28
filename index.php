@@ -46,13 +46,8 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         </div>
 
-        <!-- Right Visual Arc with Birds -->
+        <!-- Right Visual -->
         <div class="hero-visual-side">
-            <svg class="birds-silhouette" viewBox="0 0 100 80" fill="#2d3748">
-                <path d="M10,20 Q20,12 30,20 Q40,12 50,20 Q40,16 30,22 Q20,16 10,20 Z" />
-                <path d="M55,35 Q62,28 70,35 Q78,28 85,35 Q78,32 70,37 Q62,32 55,35 Z" transform="scale(0.7) translate(20, 10)" />
-                <path d="M25,50 Q32,44 40,50 Q48,44 55,50 Q48,47 40,52 Q32,47 25,50 Z" transform="scale(0.5) translate(40, 30)" />
-            </svg>
             <div class="high-court-arch-frame">
                 <img src="assets/images/hero-justice.jpg?v=3" alt="Lady Justice, Constitution of India, and Gavel">
             </div>
