@@ -31,7 +31,7 @@ if (!isset($page_description)) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=2">
 </head>
 <body>
     <div id="sidebarOverlay" class="sidebar-overlay"></div>
