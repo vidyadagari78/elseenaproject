@@ -49,7 +49,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Right Visual -->
         <div class="hero-visual-side">
             <div class="high-court-arch-frame">
-                <img src="assets/images/hero-justice.jpg?v=3" alt="Lady Justice, Constitution of India, and Gavel">
+                <img src="assets/images/hero-justice.jpg?v=4" alt="Lady Justice, Constitution of India, and Gavel">
             </div>
         </div>
     </section>
